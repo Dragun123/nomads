@@ -74,7 +74,7 @@ UnitBlueprint {
         },
         PlaceholderMeshName = 'UXB0003',
         SpawnRandomRotation = true,
-        UniformScale = 0.14,
+        UniformScale = 0.512,
     },
     Economy = {
         BuildCostEnergy = 2000,
@@ -159,6 +159,7 @@ UnitBlueprint {
     Weapon = {
         {
             AboveWaterTargetsOnly = true,
+            AimStraightOnDisable = true, --prevents snapping back after spinner stops?
             Audio = {
                 Fire = Sound {
                     Bank = 'NomadsWeapons',
@@ -178,16 +179,16 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 30,
+            Damage = 33,
             DamageType = 'Normal',
-            DisplayName = 'Gatling Cannon',
+            DisplayName = 'Shredder Gatling Cannon',
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water|Seabed',
                 Water = 'Land|Water|Seabed',
             },
             FiringTolerance = 2,
             FiringRandomness = 0,
-            GattlingBarrelBone = 'spinner',
+            GattlingBarrelBone = 'Rotator',
             Label = 'MainGun',
             MaxRadius = 26,
             MuzzleSalvoDelay = 0,
@@ -199,14 +200,14 @@ UnitBlueprint {
             RackBones = {
                 {
                     MuzzleBones = {
-                        'muzzle',
+                        'Muzzle04',
                     },
-                    RackBone = 'barrel',
+                    RackBone = 'Rotator',
                 },
             },
             RackFireTogether = false,
             RackRecoilDistance = 0,
-            RackReloadTimeout = 0,
+            RackReloadTimeout = 10,
             RackSalvoChargeTime = 0,
             RackSalvoFiresAfterCharge = false,
             RackSalvoReloadTime = 0,
@@ -229,9 +230,9 @@ UnitBlueprint {
             },
             TargetRestrictDisallow = 'UNTARGETABLE',
             TrackingRadius = 1.15,
-            TurretBoneMuzzle = 'muzzle',
-            TurretBonePitch = 'barrel',
-            TurretBoneYaw = 'turret',
+            TurretBoneMuzzle = 'Muzzle04',
+            TurretBonePitch = 'Turret_Pitch',
+            TurretBoneYaw = 'Turret_Yaw',
             TurretDualManipulators = false,
             TurretPitch = 0,
             TurretPitchRange = 60,
@@ -241,8 +242,8 @@ UnitBlueprint {
             TurretYawSpeed = 90,
             Turreted = true,
             WeaponCategory = 'Direct Fire',
-            WeaponRepackTimeout = 10,
-            WeaponUnpacks = true,
+            WeaponRepackTimeout = 0,
+            WeaponUnpacks = false,
         },
     },
     Wreckage = {

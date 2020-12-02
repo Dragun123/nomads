@@ -9,7 +9,7 @@ UnitBlueprint {
         AutoLandTime = 1,
         BankFactor = 3,
         BankForward = false,
-        BreakOffDistance = 24,
+        BreakOffDistance = 32,
         BreakOffIfNearNewTarget = true,
         BreakOffTrigger = 20,
         CanFly = true,
@@ -109,6 +109,7 @@ UnitBlueprint {
         'VISIBLETORECON',
         'RECLAIMABLE',
         'SHOWATTACKRETICLE',
+        'OVERLAYRADAR',
     },
     CollisionOffsetZ = -0.15,
     Defense = {
@@ -193,9 +194,9 @@ UnitBlueprint {
         UniformScale = 0.093-- from 0.125,
     },
     Economy = {
-        BuildCostEnergy = 2450,
-        BuildCostMass = 105,
-        BuildTime = 700,
+        BuildCostEnergy = 2050,
+        BuildCostMass = 90,
+        BuildTime = 500,
     },
     Footprint = {
         MaxSlope = 0.25,
@@ -227,6 +228,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
+        RadarRadius = 42,
         VisionRadius = 32,
     },
     Interface = {
@@ -287,11 +289,11 @@ UnitBlueprint {
             AutoInitiateAttackCommand = true,
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 30,
+            Damage = 50,
             DamageFriendly = true,
             DamageRadius = 2,
             DamageType = 'Normal',
-            DisplayName = 'Rocket',
+            DisplayName = 'Scorcher Combustion Rockets',
             FireTargetLayerCapsTable = {
                 Air = 'Land|Water|Seabed',
                 Land = 'Land|Water|Seabed',
@@ -302,12 +304,12 @@ UnitBlueprint {
             LeadTarget = true,
             MaxRadius = 28,
             MinRadius = 8,
-            MuzzleSalvoDelay = 0.05,
-            MuzzleSalvoSize = 5,
+            MuzzleSalvoDelay = 0.1,
+            MuzzleSalvoSize = 6,
             MuzzleVelocity = 10,
             ProjectileId = '/projectiles/NRocketProj3/NRocketProj3_proj.bp',
             ProjectileLifetimeUsesMultiplier = 1.25,
-            ProjectilesPerOnFire = 2,
+            ProjectilesPerOnFire = 1,
             RackBones = {
                 {
                     MuzzleBones = {
@@ -315,14 +317,8 @@ UnitBlueprint {
                     },
                     RackBone = 'muzzle.001',
                 },
-				{
-                    MuzzleBones = {
-                        'muzzle.001',
-                    },
-                    RackBone = 'muzzle.002',
-                },
             },
-            RackFireTogether = true,
+            RackFireTogether = false,
             RackRecoilDistance = 0,
             RackReloadTimeout = 0,
             RackSalvoChargeTime = 0,

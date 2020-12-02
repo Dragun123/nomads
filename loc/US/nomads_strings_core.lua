@@ -416,6 +416,11 @@ xns0103_desc = "Frigate"
 xns0103_help = "Low-end naval unit. Armed with a singular fast firing cannon and an anti-air missile launcher."
 xns0103_name = "Lance Class"
 
+-- artillery boat
+XNS0102_desc = "Artillery Boat"
+XNS0102_help = "Low-end naval unit. Armed with two anti-air missile launchers. Can also target surface units with its rockets."
+XNS0102_name = "Defender Class"
+
 
 -- Structures
 
@@ -533,13 +538,13 @@ xnl0202_name = "Brute"
 
 -- T2 EMP tank
 xnl0306_desc = "EMP Tank"
-xnl0306_help = "Equipped with EMP cannons that stun enemy units and deal additional damage to shields. Useful for supressing groups of enemies."
+xnl0306_help = "Equipped with EMP cannons that stun enemy units and deal additional damage to shields. Useful for suppressing groups of enemies."
 xnl0306_name = "Dominator"
 
 -- Air units
 -- T2 F/B
 xna0202_desc = "Fighter/Bomber"
-xna0202_help = "Multipurpose unit that can utilize its rocket launchers on against aerial or surface units."
+xna0202_help = "Multipurpose unit that can utilize its rocket launchers against aerial or surface units."
 xna0202_name = "Spitfire"
 
 -- T2 torpedo gunship
@@ -562,13 +567,13 @@ xns0201_name = "Firestorm Class"
 
 -- cruiser
 xns0202_desc = "Cruiser"
-xns0202_help = "Mid-tier cruiser. Equipped with anti-air missiles and a manual tactical missile launcher. Armed with an EMP weapon that deals additional damage to shields and suppresses enemy forces."
+xns0202_help = "Mid-tier cruiser. Equipped with anti-air missiles and EMP weapon that deals additional damage to shields and suppresses enemy forces."
 xns0202_name = "Mercenary Class"
 
 -- torpedo boat
-xns0102_desc = "Railgun Carrier"
-xns0102_help = "Dedicated anti-submarine ship. Uses underwater railguns to attack submarines and ships. Also carries a tactical missile defense turret."
-xns0102_name = "Whaler Class"
+xns0205_desc = "Railgun Carrier"
+xns0205_help = "Dedicated anti-submarine ship. Uses underwater railguns to attack submarines and ships. Also carries a tactical missile defense turret."
+xns0205_name = "Whaler Class"
 
 
 -- Structures
@@ -729,7 +734,7 @@ xna0303_name = "Thunder"
 
 -- Bomber
 xna0304_desc = "Strategic Bomber"
-xna0304_help = "Strategic bomber designed to destroy swathes of territory."
+xna0304_help = "Strategic bomber designed to destroy large swathes of territory."
 xna0304_name = "Red Rage"
 
 -- Gunship
@@ -741,7 +746,7 @@ xna0305_name = "Hornet"
 
 -- submarine
 xns0304_desc = "Tactical Submarine"
-xns0304_help = "Tactical Missile Submarine. Armed with long-range EMP missiles and torpedoes. Can build and launch tactical blackhole missile. Can fire while submerged."
+xns0304_help = "Tactical Missile Submarine. Armed with long-range EMP missiles and torpedoes. Can build and launch tactical blackhole missiles. Can fire while submerged."
 xns0304_name = "Leviathan Class"
 
 -- carrier
@@ -864,7 +869,7 @@ xnb2302_name = "Desolator"
 
 -- transport
 xna0401_desc = "Experimental Air Transport"
-xna0401_help = "Experimental transport. High transport capacity with the ability to carry most naval units, as well as the Beamer. Equipped with anti-air weaponry and light anti-surface gatling guns."
+xna0401_help = "Experimental transport. High transport capacity with the ability to carry most naval units, as well as certain experimental units. Equipped with anti-air weaponry and light anti-surface gatling guns."
 xna0401_name = "Altas"
 
 -- missile tank

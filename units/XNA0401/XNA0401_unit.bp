@@ -1,4 +1,4 @@
--- T4 experimental transport Altas
+-- T4 experimental transport Atlas
 
 UnitBlueprint {
     AI = {
@@ -116,8 +116,10 @@ UnitBlueprint {
         AirThreatLevel = 100,
         ArmorType = 'Light',
         EconomyThreatLevel = 50,
-        Health = 70000,
-        MaxHealth = 70000,
+        Health = 50000,
+        MaxHealth = 50000,
+        RapidRepairBonus = 240,
+        RapidRepairCooldown = 60,
         RegenRate = 10,
         SubThreatLevel = 20,
         SurfaceThreatLevel = 100,
@@ -196,7 +198,7 @@ UnitBlueprint {
         Icon = 'air',
         SelectionPriority = 2,
         TechLevel = 'RULEUTL_Experimental',
-        UnitName = '<LOC XNA0401_name>Altas',
+        UnitName = '<LOC XNA0401_name>Atlas',
         UnitWeight = 1,
     },
     Intel = {
@@ -280,7 +282,7 @@ UnitBlueprint {
             CollideFriendly = false,
             Damage = 40,
             DamageType = 'Normal',
-            DisplayName = 'All-purpose Chaingun Array',
+            DisplayName = 'Armageddon Chaingun Array',
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water|Seabed',
                 Water = 'Land|Water|Seabed',
@@ -288,7 +290,7 @@ UnitBlueprint {
             },
             FiringTolerance = 2,
             Label = 'ChainGun01',
-            MaxRadius = 40,
+            MaxRadius = 32,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 45,
@@ -358,7 +360,7 @@ UnitBlueprint {
             CollideFriendly = false,
             Damage = 40,
             DamageType = 'Normal',
-            DisplayName = 'All-purpose Chaingun Array',
+            DisplayName = 'Armageddon Chaingun Array',
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water|Seabed',
                 Water = 'Land|Water|Seabed',
@@ -366,7 +368,7 @@ UnitBlueprint {
             },
             FiringTolerance = 2,
             Label = 'ChainGun02',
-            MaxRadius = 40,
+            MaxRadius = 32,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 45,
@@ -436,7 +438,7 @@ UnitBlueprint {
             CollideFriendly = false,
             Damage = 40,
             DamageType = 'Normal',
-            DisplayName = 'All-purpose Chaingun Array',
+            DisplayName = 'Armageddon Chaingun Array',
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water|Seabed',
                 Water = 'Land|Water|Seabed',
@@ -444,7 +446,7 @@ UnitBlueprint {
             },
             FiringTolerance = 2,
             Label = 'ChainGun03',
-            MaxRadius = 40,
+            MaxRadius = 32,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 45,
@@ -514,7 +516,7 @@ UnitBlueprint {
             CollideFriendly = false,
             Damage = 40,
             DamageType = 'Normal',
-            DisplayName = 'All-purpose Chaingun Array',
+            DisplayName = 'Armageddon Chaingun Array',
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water|Seabed',
                 Water = 'Land|Water|Seabed',
@@ -522,7 +524,7 @@ UnitBlueprint {
             },
             FiringTolerance = 2,
             Label = 'ChainGun04',
-            MaxRadius = 40,
+            MaxRadius = 32,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 45,
